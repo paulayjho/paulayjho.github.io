@@ -9,6 +9,7 @@
   </style>
 </head>
 <body>
+  <div class="items">
   <div class="banner">
     <img src="Paula loves fries.png" alt "Paula Ho headshot" class="banner-image"
   </div>
@@ -17,6 +18,8 @@
     .banner-image {
       width: 128px;
       height: 128px;
+      display: flex;
+      justify-content: center;
     }
   </style>
   
@@ -65,27 +68,46 @@
   <style>
   body {
     background-color: #fffffe;
+    display: flex;
+    justify-content: center;
   }
   
   .name {
     color: #e53170;
+    display: flex;
+    justify-content: center;
   }
   
   .social-icons a {
     color: #3da9fc;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
   }
   
   .link {
-    background-color: #fffffe;
+    background-color: #ff8ba7;
   }
   
   .link a {
-    color: #ff8ba7;
+    color: #fffffe;
     text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
   }
 </style>
 
+<style>
+  .items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+}
+</style>
+
+
   </div>
+
 </body>
 </html>
